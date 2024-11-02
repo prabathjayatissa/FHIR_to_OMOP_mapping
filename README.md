@@ -20,3 +20,5 @@ Tests:
 Unit tests for both mappers
 Validates mapping logic
 The system is modular and can be extended to support additional FHIR resources and OMOP tables. Would you like me to add support for any specific FHIR resources or explain any part in detail?
+
+<img width="883" alt="Screenshot 2024-11-02 at 20 28 03" src="https://github.com/user-attachments/assets/6b806e57-b58d-49a3-845c-034351fce4a2">
