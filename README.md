@@ -1,6 +1,9 @@
 # FHIR_to_OMOP_mapping
 
-Created a comprehensive FHIR to OMOP CDM mapping system with the following features:
+The methodology for implementing OMOP -on-FHIR involves leveraging the FHIRstandard as a meta-model to integrate common data models, 
+utilizing the Java HAPIFHIR-API for server architecture, and validating the solution th rough patient dataexchange with a FHIR reference implementation server. 
+Collaboration between HL7 andthe OHDSI community also aims to create a single common data model that integratesHL7 FHIR and OMOP.
+Moreover, using FHIR as an intermediate representation Created a comprehensive FHIR to OMOP CDM mapping system with the following features:
 
 Type Definitions:
 
