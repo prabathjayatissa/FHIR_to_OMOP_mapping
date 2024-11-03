@@ -9,7 +9,6 @@ export class PatientMapper {
     unknown: 0,
   };
 
-  
   public static toOMOP(fhirPatient: FHIRPatient): Person {
     const birthDate = fhirPatient.birthDate ? parseISO(fhirPatient.birthDate) : null;
 
