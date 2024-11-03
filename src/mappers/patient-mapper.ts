@@ -26,8 +26,6 @@ export class PatientMapper {
     };
   }
 
-
-  
   private static mapGenderConcept(gender?: string): number {
     if (!gender) return this.genderConceptMap.unknown;
     return this.genderConceptMap[gender.toLowerCase()] || this.genderConceptMap.unknown;
