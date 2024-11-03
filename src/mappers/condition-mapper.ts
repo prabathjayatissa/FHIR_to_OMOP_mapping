@@ -7,7 +7,6 @@ export class ConditionMapper {
       ? parseInt(fhirCondition.subject.reference.replace('Patient/', ''))
       : 0;
 
-    
     return {
       condition_occurrence_id: parseInt(fhirCondition.id || '0'),
       person_id: personId,
