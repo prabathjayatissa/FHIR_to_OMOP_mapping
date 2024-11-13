@@ -6,7 +6,6 @@ export class MappingService {
   public mapPatient(fhirPatient: FHIRPatient): Person {
     return PatientMapper.toOMOP(fhirPatient);
   }
-
   public mapCondition(fhirCondition: FHIRCondition): ConditionOccurrence {
     return ConditionMapper.toOMOP(fhirCondition);
   }
