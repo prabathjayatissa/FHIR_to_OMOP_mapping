@@ -11,7 +11,6 @@ test('maps FHIR Patient to OMOP Person', () => {
   };
 
   const omopPerson = PatientMapper.toOMOP(fhirPatient);
-
   expect(omopPerson.person_id).toBe(123);
   expect(omopPerson.gender_concept_id).toBe(8507);
   expect(omopPerson.year_of_birth).toBe(1990);
