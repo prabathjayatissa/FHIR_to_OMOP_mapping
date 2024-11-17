@@ -17,3 +17,4 @@ test('maps FHIR Patient to OMOP Person', () => {
   expect(omopPerson.month_of_birth).toBe(1);
   expect(omopPerson.day_of_birth).toBe(15);
 });
+
