@@ -19,6 +19,7 @@ export interface Person {
   ethnicity_source_concept_id?: number;
 }
 
+
 export interface ConditionOccurrence {
   condition_occurrence_id: number;
   person_id: number;
