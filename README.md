@@ -1,6 +1,6 @@
 # FHIR_to_OMOP_mapping
 
-Created a comprehensive FHIR to OMOP CDM mapping system with the following features:
+## Created a comprehensive FHIR to OMOP CDM mapping system with the following features:
 
 Type Definitions:
 
