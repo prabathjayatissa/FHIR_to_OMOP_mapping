@@ -2,7 +2,7 @@
 
 ## Created a comprehensive FHIR to OMOP CDM mapping system with the following features:
 
-Type Definitions:
+### Type Definitions:
 
 FHIR resource interfaces
 OMOP CDM table interfaces
