@@ -18,7 +18,6 @@ ConditionMapper: FHIR Condition → OMOP Condition_Occurrence
 
 
 ### Mapping Service:
-
 Handles individual resources and FHIR bundles
 Extensible for additional resource types
 
