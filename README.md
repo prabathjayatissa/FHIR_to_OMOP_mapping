@@ -20,7 +20,6 @@ ConditionMapper: FHIR Condition → OMOP Condition_Occurrence
 Handles individual resources and FHIR bundles
 Extensible for additional resource types
 
-
 #### Tests:
 
 Unit tests for both mappers
