@@ -9,7 +9,6 @@ OMOP CDM table interfaces
 
 <img width="883" alt="Screenshot 2024-11-02 at 20 28 03" src="https://github.com/user-attachments/assets/6b806e57-b58d-49a3-845c-034351fce4a2">
 
-
 ### Mappers:
 
 ### PatientMapper: 
