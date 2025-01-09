@@ -33,3 +33,4 @@ export class ConditionMapper {
     return `${coding.system || ''}|${coding.code || ''}`;
   }
 }
+
