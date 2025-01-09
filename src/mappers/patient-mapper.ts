@@ -25,6 +25,7 @@ export class PatientMapper {
       gender_source_value: fhirPatient.gender,
     };
   }
+
   
   private static mapGenderConcept(gender?: string): number {
     if (!gender) return this.genderConceptMap.unknown;
