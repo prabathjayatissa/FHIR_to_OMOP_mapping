@@ -11,10 +11,10 @@ export class MappingService {
   }
 
   public async mapBundle(bundle: any): Promise<{
-    persons: Person[];
+    persons: Person[]; 
     conditions: ConditionOccurrence[];
   }> {
-    const persons: Person[] = [];
+    const persons: Person[] = []; 
     const conditions: ConditionOccurrence[] = [];
 
     for (const entry of bundle.entry || []) {
