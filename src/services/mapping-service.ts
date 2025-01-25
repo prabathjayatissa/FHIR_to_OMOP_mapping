@@ -2,6 +2,7 @@ import { PatientMapper, ConditionMapper } from '../mappers';
 import { FHIRPatient, FHIRCondition } from '../types/fhir';
 import { Person, ConditionOccurrence } from '../types/omop';
 
+
 export class MappingService {
   public mapPatient(fhirPatient: FHIRPatient): Person {
     return PatientMapper.toOMOP(fhirPatient);
