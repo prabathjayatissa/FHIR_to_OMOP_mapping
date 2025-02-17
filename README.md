@@ -11,12 +11,12 @@ OMOP CDM table interfaces
 
 ### Mappers:
 
-### PatientMapper: 
+#### PatientMapper: 
 
 FHIR Patient → OMOP Person
 ConditionMapper: FHIR Condition → OMOP Condition_Occurrence
 
-### Mapping Service:
+#### Mapping Service:
 Handles individual resources and FHIR bundles
 Extensible for additional resource types
 
