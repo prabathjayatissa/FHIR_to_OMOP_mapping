@@ -1,6 +1,6 @@
 import { FHIRCondition } from '../types/fhir';
 import { ConditionOccurrence } from '../types/omop';
-
+  
 export class ConditionMapper {
   public static toOMOP(fhirCondition: FHIRCondition): ConditionOccurrence {
     const personId = fhirCondition.subject?.reference
